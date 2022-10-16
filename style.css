@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Karla','Roboto',sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: papayawhip;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(rgb(7, 7, 7), rgb(20, 22, 20), rgb(14, 14, 15), 1);    
+    font-size: 60px;
+    box-sizing: border-box;
+    font: 100%;
+    background-image: url('RIta\ garbanzo\ pattern.jpg');
+    opacity: 0.4;
+    padding: 40px;
+    letter-spacing: 3px;
+}
+
+#how-method {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+}
+
+#cooking-setting {
+    display: flex;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 0.25px;
+}
+
+#cooking-time {
+    width: 300px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Super-Garbanzo</title>
+</head>
+<body>
+    <header> 
+        <h1>How Do You Like Your Garbanzo Beans?</h1>
+    </header>
+    <main>
+        <form method="get">
+            <label for="nickname">Please let us know how you'd like to be referred to: </label>
+            <input type="text" id="nickname" name="nickname" required><br>
+            <p>Do you like your garbanzo beans cooked?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="cook" required>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="cook" required><br>
+            <div class="visibility">
+            <label for="how-method">How do you like your garbanzo cooked?</label>
+            <select name="how-method" id="how-method">
+                <option value="boiled">Boiled</option>
+                <option value="roasted">Roasted</option>
+                <option value="deep-fried">Deep Fried</option>
+                <option value="braised">Braised</option>
+                <option value="in-soup">In soup</option>
+            </select>  <br>
+            <label for="cooking-time">How long?</label><br>
+            <input type="range" id="cooking-time" min="0" max="100" value="50" step="25" list="cooking-setting">
+            <datalist id="cooking-setting">
+                <option>Extra-Soft</option>
+                <option>Soft</option>
+                <option>Just-Right</option>
+                <option>Hard</option>
+                <option>Extra-Hard</option>
+            </datalist>
+        </div>
+        </form>
+    </main>
+    
+</body>
+</html>
