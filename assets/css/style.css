@@ -9,14 +9,17 @@ body {
 h1 {
     text-transform: uppercase;
     font-weight: 600;
-    color: rgba(rgb(7, 7, 7), rgb(20, 22, 20), rgb(14, 14, 15), 1);    
+    color: rgba(rgb(7, 7, 7), rgb(2, 2, 2), rgb(8, 8, 8), 1);    
     font-size: 60px;
     box-sizing: border-box;
     font: 100%;
-    background-image: url('RIta\ garbanzo\ pattern.jpg');
-    opacity: 0.4;
     padding: 40px;
     letter-spacing: 3px;
+}
+
+#background-image {
+    background-image: url('RIta\ garbanzo\ pattern.jpg');
+    opacity: 0.4;
 }
 
 #how-method {
